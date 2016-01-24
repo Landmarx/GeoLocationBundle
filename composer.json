@@ -1,0 +1,37 @@
+{
+    "name": "landmarx/geolocation-bundle",
+    "type": "library",
+    "description": "geolocation bundle for the landmarx system.",
+    "keywords": [
+        "geolocation",
+        "mapping",
+        "mapping system",
+        "node",
+        "node mapping"
+    ],
+    "homepage": "http://landmarx.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl":    "*",
+        "guzzle/http": "~3.9"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Bundle\\GeoLocationBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
